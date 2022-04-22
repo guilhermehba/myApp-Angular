@@ -1,7 +1,6 @@
 
 import { Transferencia } from './../models/transferencia.models';
 import { TransferenciaService } from './../services/transferencia.service';
-import { HttpClient } from '@angular/common/http';
 import { Component, EventEmitter, Output } from '@angular/core';
 import { Router } from '@angular/router';
 
@@ -14,7 +13,7 @@ export class NovatransferenciaComponent {
   @Output() aoTransferir = new EventEmitter<any>();
 
   valor: number;
-  destino: number;
+  destino: number | string;
 
   constructor(private service: TransferenciaService, private router: Router) {}
 
