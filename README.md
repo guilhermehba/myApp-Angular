@@ -1,3 +1,3 @@
 # MyApp
 
-http://registro-de-gastos-com.umbler.net/extrato
+https://registrofinanceiroapi.firebaseapp.com/
